@@ -19,7 +19,7 @@ public class LivingEntityFlammability {
         if(living instanceof HorseEntity) {
             HorseEntity horse = (HorseEntity) living;
             if (horse.getArmorType().getItem() == NetheriteHorseArmor.NETHERITE_HORSE_ARMOR &&
-                    (source == DamageSource.IN_FIRE || 
+                    (source == DamageSource.IN_FIRE ||
                             source == DamageSource.ON_FIRE ||
                             source == DamageSource.LAVA)) {
 
