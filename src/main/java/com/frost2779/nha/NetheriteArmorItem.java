@@ -3,11 +3,11 @@ package com.frost2779.nha;
 import net.minecraft.item.HorseArmorItem;
 import net.minecraft.util.Identifier;
 
-public class ModdedHorseArmorItem extends HorseArmorItem {
+public class NetheriteArmorItem extends HorseArmorItem {
 
-    protected final String entityTexture;
+    private final String entityTexture;
 
-    public ModdedHorseArmorItem(int bonus, String name, Settings settings) {
+    public NetheriteArmorItem(int bonus, String name, Settings settings) {
         super(bonus, name, settings);
         this.entityTexture = "nha:textures/entity/horse/armor/horse_armor_" + name + ".png";
     }
@@ -15,5 +15,10 @@ public class ModdedHorseArmorItem extends HorseArmorItem {
     @Override
     public Identifier getEntityTexture() {
         return new Identifier(entityTexture);
+    }
+
+    @Override
+    public boolean isFireproof() {
+        return true;
     }
 }

@@ -22,7 +22,9 @@
       "com.frost2779.nha.NetheriteHorseArmor"
     ]
   },
-
+  "mixins": [
+    "nha.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",

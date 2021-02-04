@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.frost2779.nha.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "LivingEntityFlammability"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
