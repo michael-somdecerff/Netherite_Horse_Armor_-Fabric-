@@ -21,7 +21,8 @@ public class LivingEntityFlammability {
             if (horse.getArmorType().getItem() == NetheriteHorseArmor.NETHERITE_HORSE_ARMOR &&
                     (source == DamageSource.IN_FIRE ||
                             source == DamageSource.ON_FIRE ||
-                            source == DamageSource.LAVA)) {
+                            source == DamageSource.LAVA ||
+                            source == DamageSource.HOT_FLOOR)) {
 
                 cir.setReturnValue(false);
             }
