@@ -1,0 +1,7 @@
+{
+  "tab.elytraCrafting.tabgeneral": "Elytra Crafting",
+  "text.autoconfig.elytracrafting.title": "Elytra Crafting",
+  "text.autoconfig.elytracrafting.option.enablePreEndMode": "Enable Pre-End Mode",
+  "text.autoconfig.elytracrafting.option.enablePreEndMode.@Tooltip": "Enables recipes that allow you to craft an elytra with materials not requiring the end.",
+  "item.elytracrafting.reinforced_stick": "Reinforced Stick"
+}

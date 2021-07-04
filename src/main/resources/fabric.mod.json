@@ -1,36 +1,38 @@
 {
   "schemaVersion": 1,
-  "id": "nha",
+  "id": "elytracrafting",
   "version": "${version}",
 
-  "name": "Netherite Horse Armor",
-  "description": "Adds netherite horse armor to the game.",
+  "name": "Elytra Crafting",
+  "description": "Allows you to craft the Elytra.",
   "authors": [
     "Frost2779"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/elytra-crafting-mod",
+    "sources": "https://github.com/michael-somdecerff/Elytra_Crafting/tree/Fabric-1.17"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/nha/icon.png",
+  "license": "MIT",
+  "icon": "assets/elytracrafting/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.frost2779.nha.NetheriteHorseArmor"
+      "com.frost2779.elytracrafting.ElytraCrafting"
+    ],
+    "modmenu": [
+      "com.frost2779.elytracrafting.ElytraCraftingModMenu"
     ]
   },
   "mixins": [
-    "nha.mixins.json"
+
   ],
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "minecraft": "1.16.x",
+    "cloth-config2": "4.11.x",
+    "modmenu": "1.16.x"
   }
 }
