@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "elytracrafting:item/diamond_harness"
+    "layer0": "nha:item/netherite_horse_armor"
   }
 }
